@@ -9,14 +9,6 @@ let estudantes = require("./alunos");
 //         this.listaEstudantes = listaEstudantes
 // };
 
-// Passo 5 - Crie um método para o objeto curso que receba um aluno (como parâmetro) e
-// retorne true se ele aprovou no curso ou false em caso de reprovação. Para ser aprovado, o
-// aluno tem que ter uma média igual ou acima da nota de aprovação e ter menos faltas que
-// faltas máximas. Se tiver a mesma quantidade, tem que estar 10% acima da nota de
-// aprovação.
-
-// Passo 6 - Crie um método para o objeto curso que percorra a lista de estudantes e retorne um
-// array de booleanos com os resultados se os alunos aprovaram ou não.
 
 let cursos = {
     nomeCurso: "Programação Imperativa",
@@ -44,7 +36,7 @@ let cursos = {
     }
 };
 
-//cursos.alunoNovo("Patricia", 2, [3, 5, 9]);
+//cursos.alunoNovo("Luna", 2, [3, 5, 9]);
 
 //console.log(cursos.listaEstudantes);
 
